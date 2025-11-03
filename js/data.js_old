@@ -1,0 +1,111 @@
+// js/data.js
+
+// Data untuk Halaman Stok
+const dataBahanAjar = [
+  {
+    kode: "ASIP4301",
+    nama: "Pengantar Ilmu Komunikasi",
+    jenis: "BMP",
+    edisi: 2,
+    stok: 548,
+    rangkuman: "Mata kuliah ini membahas konsep dasar ilmu komunikasi, proses komunikasi, model-model komunikasi, dan aplikasinya dalam berbagai konteks. Materi mencakup komunikasi interpersonal, kelompok, massa, dan digital.",
+    deskripsi: "Pengantar Ilmu Komunikasi memberikan pemahaman mendasar tentang teori dan praktik komunikasi dalam kehidupan sehari-hari dan profesional.",
+    pengarang: "Dr. Ahmad Fauzi, M.Si.",
+    isbn: "978-602-425-123-4",
+    halaman: 256,
+    berat: "450 gram"
+  },
+  {
+    kode: "MKDU4107",
+    nama: "Bahasa Inggris 1",
+    jenis: "BMP",
+    edisi: 1,
+    stok: 300,
+    rangkuman: "Mata kuliah ini fokus pada pengembangan kemampuan bahasa Inggris dasar meliputi listening, speaking, reading, dan writing. Materi dirancang untuk tingkat pemula hingga menengah.",
+    deskripsi: "Bahasa Inggris 1 membantu mahasiswa menguasai dasar-dasar komunikasi dalam bahasa Inggris untuk keperluan akademik dan profesional.",
+    pengarang: "Prof. Maria Sari, M.A.",
+    isbn: "978-602-425-124-1",
+    halaman: 200,
+    berat: "400 gram"
+  },
+  {
+    kode: "ISIP4211",
+    nama: "Logika",
+    jenis: "BMP",
+    edisi: 3,
+    stok: 150,
+    rangkuman: "Mata kuliah Logika membahas prinsip-prinsip berpikir kritis dan sistematis, termasuk silogisme, deduksi, induksi, dan analisis argumentasi.",
+    deskripsi: "Logika mengajarkan mahasiswa untuk berpikir rasional dan kritis dalam menganalisis masalah dan membuat keputusan.",
+    pengarang: "Dr. Budi Santoso, M.Hum.",
+    isbn: "978-602-425-125-8",
+    halaman: 180,
+    berat: "380 gram"
+  },
+  {
+    kode: "EKMA4315",
+    nama: "Manajemen Strategik",
+    jenis: "BMP",
+    edisi: 3,
+    stok: 250,
+    rangkuman: "Mata kuliah ini membahas konsep perencanaan strategis dalam organisasi, analisis lingkungan internal dan eksternal, formulasi strategi, implementasi, dan evaluasi.",
+    deskripsi: "Manajemen Strategik memberikan kerangka kerja untuk pengambilan keputusan strategis dalam bisnis dan organisasi.",
+    pengarang: "Prof. Dian Surya, Ph.D.",
+    isbn: "978-602-425-126-5",
+    halaman: 300,
+    berat: "500 gram"
+  },
+  {
+    kode: "ISIP4215",
+    nama: "Pengantar Sosiologi",
+    jenis: "BMP",
+    edisi: 1,
+    stok: 400,
+    rangkuman: "Pengantar Sosiologi mempelajari struktur sosial, interaksi manusia, institusi sosial, dan perubahan masyarakat dari perspektif sosiologis.",
+    deskripsi: "Mata kuliah ini memperkenalkan konsep dasar sosiologi dan aplikasinya dalam memahami dinamika masyarakat.",
+    pengarang: "Dr. Rina Wijaya, M.Si.",
+    isbn: "978-602-425-127-2",
+    halaman: 280,
+    berat: "470 gram"
+  }
+];
+
+// Data untuk Halaman Tracking
+const dataTracking = [
+  {
+    no_do: "18503964874",
+    nama: "ROIKA HEPRIDA SITIO",
+    status: "Tiba di HUB TANGERANG SELATAN",
+    tgl_kirim: "2025-02-17",
+    jenis_paket: "Reguler",
+    detail_perjalanan: [
+        "Paket diterima di PEMATANGSIANTAR",
+        "Proses transit di PEMATANGSIANTAR",
+        "Tiba di HUB MEDAN",
+        "Diteruskan ke HUB TANGERANG SELATAN"
+    ]
+  },
+  {
+    no_do: "12345678901",
+    nama: "BUDI SANTOSO",
+    status: "Dalam Pengiriman ke Alamat Tujuan",
+    tgl_kirim: "2025-02-18",
+    jenis_paket: "Express",
+    detail_perjalanan: [
+        "Paket diterima di GUDANG JAKARTA",
+        "Diteruskan ke Kurir"
+    ]
+  },
+  {
+    no_do: "98765432109",
+    nama: "SITI AMINAH",
+    status: "Telah Diterima",
+    tgl_kirim: "2025-02-15",
+    jenis_paket: "Reguler",
+    detail_perjalanan: [
+        "Paket diterima di GUDANG BANDUNG",
+        "Tiba di HUB JAKARTA",
+        "Diteruskan ke alamat tujuan",
+        "Paket telah diterima oleh penerima"
+    ]
+  }
+];

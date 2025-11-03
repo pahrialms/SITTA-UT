@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SITTA - Informasi Stok Bahan Ajar</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/data.js" defer></script>
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h2 id="greeting"></h2>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="stok.html">Informasi Bahan Ajar</a></li>
+            <li><a href="tracking.html">Tracking Pengiriman</a></li>
+            <li class="dropdown">
+                <a href="#">Laporan ▾</a>
+                <div class="dropdown-content">
+                    <a href="#">Monitoring Progress DO</a>
+                    <a href="#">Rekap Bahan Ajar</a>
+                </div>
+            </li>
+            <li><a href="#">Histori Transaksi Bahan Ajar</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Informasi Stok Bahan Ajar</h2>
+        
+        <form id="form-tambah-stok">
+            <h3>Tambah Barang Baru</h3>
+            <input type="text" id="kode-barang" placeholder="Kode Barang" required>
+            <input type="text" id="nama-barang" placeholder="Nama Barang" required>
+            <input type="text" id="jenis-barang" placeholder="Jenis" required>
+            <input type="number" id="edisi-barang" placeholder="Edisi" required>
+            <input type="number" id="stok-barang" placeholder="Stok" required>
+            <button type="submit">Tambah Stok</button>
+        </form>
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>Kode Barang</th>
+                    <th>Nama Barang</th>
+                    <th>Jenis</th>
+                    <th>Edisi</th>
+                    <th>Stok</th>
+                </tr>
+            </thead>
+            <tbody id="stok-table-body">
+                <!-- Data akan diisi oleh JavaScript -->
+            </tbody>
+        </table>
+    </main>
+</body>
+</html>
